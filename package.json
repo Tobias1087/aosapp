@@ -1,0 +1,22 @@
+{
+  "name": "aosapp",
+  "version": "1.0.0",
+  "description": "discord bot for aos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "csv": "node dumpcsv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "discord.js": "^14.11.0",
+    "markdown-table": "^3.0.3",
+    "markdown-table-ts": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
